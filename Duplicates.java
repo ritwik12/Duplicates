@@ -7,14 +7,14 @@ import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-
+@SuppressWarnings({"unchecked","deprecation","cast"})
 public class Duplicates
 {
     
     public Duplicates() throws IOException {
 
-        ArrayList al = new ArrayList();
-        Hashtable ht = new Hashtable();
+        ArrayList<String> al = new ArrayList<String>();
+        Hashtable<String,Integer> ht = new Hashtable<String,Integer>();
         try {
             DataInputStream in = new DataInputStream(new FileInputStream("master_as.txt"));
 
