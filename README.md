@@ -48,4 +48,17 @@ The following image shows the duplicate count for all the lines
 
 ![print](https://user-images.githubusercontent.com/20038775/38994949-5f43d1e4-4405-11e8-8f04-e6406aaca297.JPG)
 
+# Alternate approach
+In linux, <br>
+To print duplicate lines only, with counts:
+```
+sort FILE | uniq -cd
+```
+To print counts for all lines including those that appear only once:
+```
+sort FILE | uniq -c
+```
+
+
+
  
