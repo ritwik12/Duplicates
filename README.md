@@ -3,6 +3,15 @@ Finding duplicates from a File and printing it to another file with duplicate co
 
 find all the duplicate lines and store the duplicate line as well as there count in the file duplicate.txt and then generate a new file "output.txt" which does not contain any repeating lines. <br>
 
+# Approaches
+## Using Data Structures (Duplicates.java)
+
+There are two approaches for this. One is using Data structures such as ArrayList, Hashtable and HashSet. This approach is based on the characteristics of HashSet and Hashtable i.e they contains only unique elements. By comparing ArrayList and Hashtable we can calculate duplicate counts of duplicates. And HashSet is used to get unique lines to be printed in output.txt. <br>
+
+## Without using Data Structures (DuplicateswithoutDS.java)
+
+This approach doesn't use any Data structures for getting Duplicates count from a file or removing Duplicates from a file.
+
 For example: <br>
 If the input file contains lines like <br>
 ```
